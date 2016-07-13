@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="13F1077" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="412" id="T61-oQ-ZE1" customClass="SpecialCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="T61-oQ-ZE1" id="dYT-ED-6rb">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fOq-Hp-n1y">
+                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="widthClass=compact" fixedFrame="YES">
+                            <rect key="frame" x="8" y="0.0" width="312" height="33"/>
+                        </variation>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ElR-sT-fOZ">
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                        <variation key="widthClass=compact" fixedFrame="YES">
+                            <rect key="frame" x="8" y="41" width="164" height="245"/>
+                        </variation>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cef-Oo-KAg">
+                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="widthClass=compact" fixedFrame="YES">
+                            <rect key="frame" x="253" y="41" width="102" height="21"/>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dYi-uh-dRe">
+                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="widthClass=compact" fixedFrame="YES">
+                            <rect key="frame" x="323" y="60" width="40" height="21"/>
+                        </variation>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JSn-75-LXO">
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                        <variation key="widthClass=compact" fixedFrame="YES">
+                            <rect key="frame" x="180" y="42" width="60" height="60"/>
+                        </variation>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0RH-kS-wef">
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                        <variation key="widthClass=compact" fixedFrame="YES">
+                            <rect key="frame" x="180" y="104" width="60" height="60"/>
+                        </variation>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ETi-VV-EJm">
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                        <variation key="widthClass=compact" fixedFrame="YES">
+                            <rect key="frame" x="180" y="166" width="60" height="60"/>
+                        </variation>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="knY-My-Dfi">
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                        <variation key="widthClass=compact" fixedFrame="YES">
+                            <rect key="frame" x="180" y="228" width="60" height="60"/>
+                        </variation>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SVI-0z-gCq">
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                        <variation key="widthClass=compact" fixedFrame="YES">
+                            <rect key="frame" x="8" y="294" width="60" height="60"/>
+                        </variation>
+                    </imageView>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DMn-D8-ZqM">
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        <variation key="widthClass=compact" fixedFrame="YES">
+                            <rect key="frame" x="96" y="294" width="249" height="60"/>
+                        </variation>
+                    </textView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tVo-ba-xAy">
+                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="widthClass=compact" fixedFrame="YES">
+                            <rect key="frame" x="253" y="104" width="102" height="21"/>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g4o-tK-NDz">
+                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="widthClass=compact" fixedFrame="YES">
+                            <rect key="frame" x="273" y="122" width="42" height="21"/>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rK6-i7-sq6">
+                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="widthClass=compact" fixedFrame="YES">
+                            <rect key="frame" x="323" y="122" width="40" height="21"/>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WAn-Hk-DdK">
+                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="widthClass=compact" fixedFrame="YES">
+                            <rect key="frame" x="253" y="166" width="102" height="21"/>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jia-RI-h7d">
+                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="widthClass=compact" fixedFrame="YES">
+                            <rect key="frame" x="273" y="185" width="42" height="21"/>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JQn-HL-DZj">
+                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="widthClass=compact" fixedFrame="YES">
+                            <rect key="frame" x="253" y="228" width="102" height="21"/>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="peM-mW-3Ht">
+                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="widthClass=compact" fixedFrame="YES">
+                            <rect key="frame" x="272" y="247" width="42" height="21"/>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WK9-9n-oCp">
+                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="widthClass=compact" fixedFrame="YES">
+                            <rect key="frame" x="323" y="185" width="42" height="21"/>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xn7-e1-SLs">
+                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="widthClass=compact" fixedFrame="YES">
+                            <rect key="frame" x="323" y="247" width="42" height="21"/>
+                        </variation>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="topic_Download.png" translatesAutoresizingMaskIntoConstraints="NO" id="KwG-HO-p9S">
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                        <variation key="widthClass=compact" fixedFrame="YES">
+                            <rect key="frame" x="306" y="127" width="14" height="11"/>
+                        </variation>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="topic_Download.png" translatesAutoresizingMaskIntoConstraints="NO" id="Yhn-O2-s0W">
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                        <variation key="widthClass=compact" fixedFrame="YES">
+                            <rect key="frame" x="306" y="190" width="14" height="11"/>
+                        </variation>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="topic_Download.png" translatesAutoresizingMaskIntoConstraints="NO" id="4GL-zA-w3x">
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                        <variation key="widthClass=compact" fixedFrame="YES">
+                            <rect key="frame" x="306" y="252" width="14" height="11"/>
+                        </variation>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="topic_Download.png" translatesAutoresizingMaskIntoConstraints="NO" id="X2l-Xa-8In">
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                        <variation key="widthClass=compact" fixedFrame="YES">
+                            <rect key="frame" x="306" y="64" width="14" height="11"/>
+                        </variation>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="topic_Comment.png" translatesAutoresizingMaskIntoConstraints="NO" id="dr2-nL-mQi">
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                        <variation key="widthClass=compact" fixedFrame="YES">
+                            <rect key="frame" x="253" y="64" width="14" height="11"/>
+                        </variation>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="topic_Comment.png" translatesAutoresizingMaskIntoConstraints="NO" id="ned-GH-L8C">
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                        <variation key="widthClass=compact" fixedFrame="YES">
+                            <rect key="frame" x="253" y="128" width="14" height="11"/>
+                        </variation>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="topic_Comment.png" translatesAutoresizingMaskIntoConstraints="NO" id="M5k-wz-uyM">
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                        <variation key="widthClass=compact" fixedFrame="YES">
+                            <rect key="frame" x="253" y="190" width="14" height="11"/>
+                        </variation>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="topic_Comment.png" translatesAutoresizingMaskIntoConstraints="NO" id="nAq-xX-gRq">
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                        <variation key="widthClass=compact" fixedFrame="YES">
+                            <rect key="frame" x="253" y="252" width="14" height="11"/>
+                        </variation>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XeT-qA-YeV">
+                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="widthClass=compact" fixedFrame="YES">
+                            <rect key="frame" x="272" y="60" width="36" height="21"/>
+                        </variation>
+                    </label>
+                </subviews>
+                <variation key="default">
+                    <mask key="subviews">
+                        <exclude reference="fOq-Hp-n1y"/>
+                        <exclude reference="ElR-sT-fOZ"/>
+                        <exclude reference="cef-Oo-KAg"/>
+                        <exclude reference="dYi-uh-dRe"/>
+                        <exclude reference="JSn-75-LXO"/>
+                        <exclude reference="0RH-kS-wef"/>
+                        <exclude reference="ETi-VV-EJm"/>
+                        <exclude reference="knY-My-Dfi"/>
+                        <exclude reference="SVI-0z-gCq"/>
+                        <exclude reference="DMn-D8-ZqM"/>
+                        <exclude reference="tVo-ba-xAy"/>
+                        <exclude reference="g4o-tK-NDz"/>
+                        <exclude reference="rK6-i7-sq6"/>
+                        <exclude reference="WAn-Hk-DdK"/>
+                        <exclude reference="jia-RI-h7d"/>
+                        <exclude reference="JQn-HL-DZj"/>
+                        <exclude reference="peM-mW-3Ht"/>
+                        <exclude reference="WK9-9n-oCp"/>
+                        <exclude reference="xn7-e1-SLs"/>
+                        <exclude reference="KwG-HO-p9S"/>
+                        <exclude reference="Yhn-O2-s0W"/>
+                        <exclude reference="4GL-zA-w3x"/>
+                        <exclude reference="X2l-Xa-8In"/>
+                        <exclude reference="dr2-nL-mQi"/>
+                        <exclude reference="ned-GH-L8C"/>
+                        <exclude reference="M5k-wz-uyM"/>
+                        <exclude reference="nAq-xX-gRq"/>
+                        <exclude reference="XeT-qA-YeV"/>
+                    </mask>
+                </variation>
+                <variation key="widthClass=compact">
+                    <mask key="subviews">
+                        <include reference="fOq-Hp-n1y"/>
+                        <include reference="ElR-sT-fOZ"/>
+                        <include reference="cef-Oo-KAg"/>
+                        <include reference="dYi-uh-dRe"/>
+                        <include reference="JSn-75-LXO"/>
+                        <include reference="0RH-kS-wef"/>
+                        <include reference="ETi-VV-EJm"/>
+                        <include reference="knY-My-Dfi"/>
+                        <include reference="SVI-0z-gCq"/>
+                        <include reference="DMn-D8-ZqM"/>
+                        <include reference="tVo-ba-xAy"/>
+                        <include reference="g4o-tK-NDz"/>
+                        <include reference="rK6-i7-sq6"/>
+                        <include reference="WAn-Hk-DdK"/>
+                        <include reference="jia-RI-h7d"/>
+                        <include reference="JQn-HL-DZj"/>
+                        <include reference="peM-mW-3Ht"/>
+                        <include reference="WK9-9n-oCp"/>
+                        <include reference="xn7-e1-SLs"/>
+                        <include reference="KwG-HO-p9S"/>
+                        <include reference="Yhn-O2-s0W"/>
+                        <include reference="4GL-zA-w3x"/>
+                        <include reference="X2l-Xa-8In"/>
+                        <include reference="dr2-nL-mQi"/>
+                        <include reference="ned-GH-L8C"/>
+                        <include reference="M5k-wz-uyM"/>
+                        <include reference="nAq-xX-gRq"/>
+                        <include reference="XeT-qA-YeV"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="BigImage" destination="ElR-sT-fOZ" id="beq-db-zsB"/>
+                <outlet property="childImage1" destination="JSn-75-LXO" id="wPX-P3-qPj"/>
+                <outlet property="childImage2" destination="0RH-kS-wef" id="kuq-1M-8IR"/>
+                <outlet property="childImage3" destination="ETi-VV-EJm" id="XcV-2L-ago"/>
+                <outlet property="childImage4" destination="knY-My-Dfi" id="gMz-HH-Lh4"/>
+                <outlet property="childLabel1" destination="cef-Oo-KAg" id="Z6q-yw-vF4"/>
+                <outlet property="childLabel2" destination="tVo-ba-xAy" id="irf-7O-86U"/>
+                <outlet property="childLabel3" destination="WAn-Hk-DdK" id="11h-kk-3lG"/>
+                <outlet property="childLabel4" destination="JQn-HL-DZj" id="lcI-Tj-SYU"/>
+                <outlet property="comLabel1" destination="XeT-qA-YeV" id="JLO-eq-poG"/>
+                <outlet property="comLabel2" destination="g4o-tK-NDz" id="7Ni-h7-wjd"/>
+                <outlet property="comLabel3" destination="jia-RI-h7d" id="u9e-mQ-sS6"/>
+                <outlet property="comLabel4" destination="peM-mW-3Ht" id="Sll-u6-zT5"/>
+                <outlet property="downLabel1" destination="dYi-uh-dRe" id="CfK-G6-92Y"/>
+                <outlet property="downLabel2" destination="rK6-i7-sq6" id="S0l-cu-92w"/>
+                <outlet property="downLabel3" destination="WK9-9n-oCp" id="jEl-eF-mQt"/>
+                <outlet property="downLabel4" destination="xn7-e1-SLs" id="IC6-rb-S9f"/>
+                <outlet property="titleLabel" destination="fOq-Hp-n1y" id="qOe-Qm-AZK"/>
+                <outlet property="xiaobianIamge" destination="SVI-0z-gCq" id="gb0-L3-a3U"/>
+                <outlet property="xiaobianText" destination="DMn-D8-ZqM" id="nhy-wk-3t5"/>
+            </connections>
+            <point key="canvasLocation" x="314" y="240"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="topic_Comment.png" width="13" height="9"/>
+        <image name="topic_Download.png" width="10" height="11"/>
+    </resources>
+</document>

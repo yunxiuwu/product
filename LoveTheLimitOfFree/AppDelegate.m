@@ -2,11 +2,12 @@
 //  AppDelegate.m
 //  LoveTheLimitOfFree
 //
-//  Created by qianfeng on 15-6-1.
+//  Created by WYX on 15-6-1.
 //  Copyright (c) 2015年 WYX. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "TabBarViewController.h"
 
 @interface AppDelegate ()
 
@@ -14,9 +15,21 @@
 
 @implementation AppDelegate
 
+- (void)dealloc
+{
+    self.window = nil;
+    
+    [super dealloc];
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    _window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    TabBarViewController *tvc = [[TabBarViewController alloc]init];
+    self.window.rootViewController = tvc;
+    [self.window makeKeyAndVisible];
+ 
+    [tvc release];
     return YES;
 }
 
